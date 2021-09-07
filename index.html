@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Contact form with FormmSubmit</title>
+    <title>Contact form with FormSubmit</title>
 </head>
 <body>
 
@@ -13,8 +13,11 @@
     <form action="https://formsubmit.co/noelcole123@gmail.com" method="POST">
      <input type="hidden" name="_subject" value="Noel's got new mail !">   
      <input type="hidden" name="_next" value="/Thankyou.html">
+     <!-- Name -->
+     <input type="text" name="name" placeholder="Name" required>     
+     <!-- Email Address -->
      <input type="email" name="email" placeholder="Email Address" required>
-     <input type="text" name="name" placeholder="Name" required>
+
      <!-- Textarea -->
      <textarea id="message" maxlength="300"  name="message" placeholder="Please Type message here" required></textarea>
      <button id="button" type="submit">Send</button>
