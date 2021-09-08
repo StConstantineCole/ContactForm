@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(63, 110, 197);
+    padding-top: 1%;
+}
+
+h1{
+    color:aquamarine;
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+input, textarea{
+   padding: 15px;
+    border-radius: 12px;
+
+}
+
+.form-container{
+    width: 50vw;
+    margin: auto;
+}
+
+.form-element{
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
